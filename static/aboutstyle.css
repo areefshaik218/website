@@ -1,0 +1,62 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Personal info section styling */
+.info {
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: bold;
+    flex-basis: 30%;
+}
+
+.value {
+    flex-basis: 60%;
+}
+
+/* Color styles for labels */
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: Tomato;
+}
+
+.black {
+    color: DodgerBlue;
+}
+

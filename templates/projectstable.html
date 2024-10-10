@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Portfolio</title>
+    <link rel="stylesheet" href="{% static 'projectstyle.css' %}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>My Projects</h1>
+        </header>
+        <table class="projects-table">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><h1>Portfolio</h1></td>
+                    <td><h4>The Portfolio project is a personal website built with HTML, CSS, and Django, aimed at showcasing my skills, projects, and professional experiences. It features sections for my bio, skills, and a gallery of projects, providing a comprehensive view of my work. The design emphasizes clean aesthetics and user-friendly navigation, making it easy for visitors to explore my achievements. By integrating Django, I can easily update content and manage the site efficiently. This project reflects my commitment to web development and my passion for presenting my journey and capabilities in a professional manner.</h4></td>
+                </tr>
+                <tr>
+                    <td><h1>To-Do List</h1></td>
+                    <td><h4>The To-Do List project is a web application developed using HTML, CSS, and Django, designed to help users manage their tasks efficiently. It allows users to create, update, and delete tasks, providing an intuitive interface for organizing daily activities. The application features a clean and responsive design, ensuring usability across devices. Users can categorize tasks based on priority and mark them as completed. With a focus on functionality, this project showcases my ability to implement CRUD operations and work with Django's framework to handle backend logic seamlessly.</h4></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

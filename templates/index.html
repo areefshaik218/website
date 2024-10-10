@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body style="bgcolor:white">
+    <header>
+        <div class="container" STYLE="background-color:#808080">
+            <h1>SHAIK AREEF</h1>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'about' %}">About Me</a></li>
+                    <li><a href="{% url 'projectstable' %}">Projects</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container" style="background-color:DarkCyan;">
+        <h2>About Me</h2>
+        <p>I am a fresher Python developer with foundational skills in MySQL, HTML, and CSS. Having completed over 200 coding problems on GeeksforGeeks, I possess strong problem-solving abilities. Eager to learn and contribute to impactful projects, I am passionate about advancing my skills in programming.</p>
+    </section>
+
+    <section id="projects" class="container" style="background-color:#BDB76B">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project" style="background-color:#F0E68C">
+                <h3>Resume</h3>
+                <p>This is a personal Resume showcasing my projects and skills.</p>
+                <a href="{% url 'resume' %}">Click Here</a>
+            </div>
+            <div class="project" STYLE="background-color:#ADD8E6">
+                <h3>Todo List App</h3>
+                <p>A simple to-do list app built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project" style="background-color:#BC8F8F">
+                <h3>Bank Account Management</h3>
+                <p>A bank account management system using OOP concepts in Python.</p>
+            </div>
+        </div>
+    </section>
+
+    my
+
+
+</body>
+</html>
+
+
